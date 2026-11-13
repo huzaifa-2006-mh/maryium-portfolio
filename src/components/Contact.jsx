@@ -48,7 +48,7 @@ const Contact = () => {
         </span>
         <h2 className="section-title">Let's Connect & Collaborate</h2>
         <p className="section-subtitle">
-          Interested in hiring an SEO content writer, data analyst, or CS intern? Send a message or reach out directly.
+          Interested in discussing an SEO role, content strategy, website audit, or CS internship? Send a message or reach out directly.
         </p>
       </div>
 

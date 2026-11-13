@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Download, Send, Sparkles } from 'lucide-react';
+import { Menu, X, Send, Sparkles } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 const Navbar = () => {
@@ -85,7 +85,7 @@ const Navbar = () => {
           <div>
             <div style={{ color: '#ffffff', fontWeight: '700', fontSize: '1.05rem', lineHeight: 1.2 }}>MARIUM WASEEM</div>
             <div style={{ color: '#06b6d4', fontSize: '0.75rem', fontWeight: '500', display: 'flex', alignItems: 'center', gap: '4px' }}>
-              <Sparkles size={10} /> Data & SEO Portfolio
+              <Sparkles size={10} /> SEO & Content Portfolio
             </div>
           </div>
         </a>

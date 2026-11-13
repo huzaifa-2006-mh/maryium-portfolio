@@ -1,5 +1,5 @@
 import React from 'react';
-import { GraduationCap, Award, BookOpen, CheckCircle, Terminal, FileSpreadsheet, Search } from 'lucide-react';
+import { GraduationCap, Award, Terminal, FileSpreadsheet, Search } from 'lucide-react';
 import { educationData, certificationsData } from '../data/portfolioData';
 
 const Certifications = () => {
@@ -113,13 +113,14 @@ const Certifications = () => {
                           style={{
                             fontSize: '0.72rem',
                             fontWeight: '600',
-                            color: cert.period === 'In Progress' || cert.period === 'Currently Enrolled' ? '#f59e0b' : '#34d399',
-                            background: 'rgba(255, 255, 255, 0.04)',
+                            color: cert.status.includes('Progress') ? '#fbbf24' : '#34d399',
+                            background: cert.status.includes('Progress') ? 'rgba(245, 158, 11, 0.1)' : 'rgba(16, 185, 129, 0.1)',
+                            border: cert.status.includes('Progress') ? '1px solid rgba(245, 158, 11, 0.3)' : '1px solid rgba(16, 185, 129, 0.3)',
                             padding: '2px 8px',
                             borderRadius: '8px',
                           }}
                         >
-                          {cert.period}
+                          {cert.status}
                         </span>
                       </div>
 

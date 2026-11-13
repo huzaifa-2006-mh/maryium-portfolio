@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, ArrowRight, Download, Mail, Database, BarChart2, Search, Code, CheckCircle, MapPin } from 'lucide-react';
+import { Sparkles, ArrowRight, Download, Mail, Search, PenTool, Globe, KeyRound, CheckCircle, MapPin } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 const Hero = () => {
@@ -120,7 +120,7 @@ const Hero = () => {
                 maxWidth: '560px',
               }}
             >
-              Computer Science student at <strong style={{ color: '#f8fafc' }}>Sir Syed University</strong> specializing in turning raw datasets into actionable insights with <strong style={{ color: '#38bdf8' }}>Power BI & SQL</strong>, complemented by hands-on <strong style={{ color: '#a78bfa' }}>SEO content strategy</strong>.
+              Computer Science student at <strong style={{ color: '#f8fafc' }}>Sir Syed University</strong> with hands-on SEO experience at <strong style={{ color: '#38bdf8' }}>Novaseeks</strong> & <strong style={{ color: '#a78bfa' }}>TeamX Pakistan</strong>, specializing in organic visibility, keyword research, on-page optimization, and <strong style={{ color: '#34d399' }}>Google Search Console</strong> analysis.
             </p>
 
             {/* Quick Contact Specs */}
@@ -204,7 +204,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <h3 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#f8fafc' }}>Marium Waseem</h3>
-                  <p style={{ fontSize: '0.85rem', color: '#38bdf8' }}>Data & SEO Professional</p>
+                  <p style={{ fontSize: '0.85rem', color: '#38bdf8' }}>SEO & Content Strategist</p>
                 </div>
               </div>
 
@@ -221,10 +221,10 @@ const Hero = () => {
                     gap: '10px',
                   }}
                 >
-                  <BarChart2 size={20} color="#06b6d4" />
+                  <Search size={20} color="#06b6d4" />
                   <div>
-                    <div style={{ fontSize: '0.85rem', fontWeight: '700', color: '#f8fafc' }}>Power BI</div>
-                    <div style={{ fontSize: '0.7rem', color: '#94a3b8' }}>Dashboards</div>
+                    <div style={{ fontSize: '0.85rem', fontWeight: '700', color: '#f8fafc' }}>On-Page SEO</div>
+                    <div style={{ fontSize: '0.7rem', color: '#94a3b8' }}>Meta & Content</div>
                   </div>
                 </div>
 
@@ -239,10 +239,10 @@ const Hero = () => {
                     gap: '10px',
                   }}
                 >
-                  <Database size={20} color="#8b5cf6" />
+                  <KeyRound size={20} color="#8b5cf6" />
                   <div>
-                    <div style={{ fontSize: '0.85rem', fontWeight: '700', color: '#f8fafc' }}>SQL Server</div>
-                    <div style={{ fontSize: '0.7rem', color: '#94a3b8' }}>T-SQL & Joins</div>
+                    <div style={{ fontSize: '0.85rem', fontWeight: '700', color: '#f8fafc' }}>Keywords</div>
+                    <div style={{ fontSize: '0.7rem', color: '#94a3b8' }}>Semrush / Ahrefs</div>
                   </div>
                 </div>
 
@@ -257,10 +257,10 @@ const Hero = () => {
                     gap: '10px',
                   }}
                 >
-                  <Code size={20} color="#10b981" />
+                  <Globe size={20} color="#10b981" />
                   <div>
-                    <div style={{ fontSize: '0.85rem', fontWeight: '700', color: '#f8fafc' }}>Python</div>
-                    <div style={{ fontSize: '0.7rem', color: '#94a3b8' }}>Pandas & NumPy</div>
+                    <div style={{ fontSize: '0.85rem', fontWeight: '700', color: '#f8fafc' }}>Google Console</div>
+                    <div style={{ fontSize: '0.7rem', color: '#94a3b8' }}>Indexing & Audits</div>
                   </div>
                 </div>
 
@@ -275,10 +275,10 @@ const Hero = () => {
                     gap: '10px',
                   }}
                 >
-                  <Search size={20} color="#f59e0b" />
+                  <PenTool size={20} color="#f59e0b" />
                   <div>
-                    <div style={{ fontSize: '0.85rem', fontWeight: '700', color: '#f8fafc' }}>SEO Strategy</div>
-                    <div style={{ fontSize: '0.7rem', color: '#94a3b8' }}>Console Audit</div>
+                    <div style={{ fontSize: '0.85rem', fontWeight: '700', color: '#f8fafc' }}>Content Writing</div>
+                    <div style={{ fontSize: '0.7rem', color: '#94a3b8' }}>Blogs & Sites</div>
                   </div>
                 </div>
               </div>
@@ -298,7 +298,7 @@ const Hero = () => {
                 }}
               >
                 <CheckCircle size={16} color="#06b6d4" />
-                <span>Enrolled in <strong>DigiSkills SEO</strong> & CS @ SSUET</span>
+                <span><strong>Novaseeks (3 Mo Exp)</strong> • DigiSkills SEO • SSUET CS</span>
               </div>
             </div>
           </div>

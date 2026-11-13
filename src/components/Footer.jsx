@@ -1,6 +1,5 @@
 import React from 'react';
-import { ArrowUp, Heart, Sparkles } from 'lucide-react';
-import { personalInfo } from '../data/portfolioData';
+import { ArrowUp, Heart } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -39,7 +38,7 @@ const Footer = () => {
             </div>
             <div>
               <div style={{ color: '#ffffff', fontWeight: '700', fontSize: '1rem' }}>MARIUM WASEEM</div>
-              <div style={{ color: '#64748b', fontSize: '0.78rem' }}>Data Analyst & SEO Content Strategist</div>
+              <div style={{ color: '#64748b', fontSize: '0.78rem' }}>SEO Specialist, Content Strategist & CS Student</div>
             </div>
           </div>
 

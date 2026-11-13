@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Calendar, Award, CheckCircle2, FileText, HeartHandshake, Share2, Sparkles } from 'lucide-react';
+import { Briefcase, Calendar, Award, CheckCircle2 } from 'lucide-react';
 import { experienceData } from '../data/portfolioData';
 
 const Experience = () => {
@@ -11,7 +11,7 @@ const Experience = () => {
         </span>
         <h2 className="section-title">Work & Volunteer Experience</h2>
         <p className="section-subtitle">
-          Practical engagement across SEO content creation, educational volunteering, and community social media management.
+          Hands-on expertise across agency SEO at Novaseeks & TeamX Pakistan, content writing, customer service, and educational volunteering.
         </p>
       </div>
 
